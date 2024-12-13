@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import UserLogin from './pages/userLogin'
-import UserSignUp from './pages/userSignUp'
-import CaptainLogin from './pages/captainLogin'
-import CaptainSignUp from './pages/captainSignUp'
+import UserLogin from './pages/UserLogin'
+import UserSignUp from './pages/UserSignUp'
+import CaptainLogin from './pages/CaptainLogin'
+import CaptainSignUp from './pages/CaptainSignUp'
 
 
-const App = () => {
+const App = () => { 
+  
   return (
     <div>
       <Routes>
